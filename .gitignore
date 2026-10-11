@@ -1,0 +1,11 @@
+# Dependencies are installed by the harness profile, never by this repo.
+node_modules/
+
+# Local logs and the mount log the host half appends.
+*.log
+.mount.log
+
+# Editor/OS droppings.
+.DS_Store
+Thumbs.db
+desktop.ini

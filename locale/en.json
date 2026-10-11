@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Archived sessions",
+    "description": "List every archived session, restore one back into its workspace, or delete it and its projection cache from disk for good."
+  }
+}

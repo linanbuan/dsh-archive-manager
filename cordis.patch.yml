@@ -1,0 +1,13 @@
+# 归档会话管理 (Archive Manager) bundle patch.
+#
+# One insert over the profile's entry list: the host half mounts there, and its
+# `dsh.client` declaration is what pulls the browser half into the boot graph.
+# The row id is what a profile's own cordis.patch.yml targets to disable or
+# retune the panel:
+#
+#   - id: archive-manager
+#     disabled: true
+
+- insert:
+    - id: archive-manager
+      name: '@local/dsh-archive-manager'
