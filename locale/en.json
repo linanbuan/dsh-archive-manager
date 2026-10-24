@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "Archived sessions",
-    "description": "List every archived session, restore one back into its workspace, or delete it and its projection cache from disk for good."
+    "description": "Manage every archived session: multi-select batch restore, batch permanent delete, and search by title, project or path (optionally across session content), with size and last-write time."
   }
 }

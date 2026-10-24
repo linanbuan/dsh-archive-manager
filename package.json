@@ -1,9 +1,9 @@
 {
   "name": "@local/dsh-archive-manager",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
-  "description": "归档会话管理 · Archived sessions — DeepSeek Harness (DSH) 设置面板：列出本机全部已归档会话，逐条复原回工作区，或连同日志文件与投影缓存永久删除。 A DSH settings panel that lists archived sessions and either restores one into its workspace or deletes it from disk for good.",
+  "description": "归档会话管理 · Archived sessions — DeepSeek Harness (DSH) 设置面板：列出本机全部已归档会话，支持多选、批量复原、批量永久删除与会话搜索（标题/项目/路径 + 可选的内容搜索）；首屏只读缓存与目录事实，不再为每行折叠会话日志。 A DSH settings panel for archived sessions: multi-select, batch restore, batch permanent delete, and search across titles, projects and paths (plus optional session-content search), with a first paint that never folds a session log.",
   "icon": "./icon.svg",
   "license": "MIT",
   "repository": {
@@ -22,12 +22,16 @@
     "archive",
     "archived-sessions",
     "session-storage",
+    "session-cleanup",
+    "batch-operations",
+    "search",
     "settings-panel"
   ],
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
     "./package.json": "./package.json",
+    "./icon": "./icon.svg",
     "./icon.svg": "./icon.svg",
     "./locale/*.json": "./locale/*.json"
   },
@@ -38,6 +42,7 @@
     "cordis.patch.yml",
     "icon.svg",
     "locale/*.json",
+    "docs/*.md",
     "README.md",
     "README.en.md",
     "LICENSE",

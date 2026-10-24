@@ -5,6 +5,11 @@ node_modules/
 *.log
 .mount.log
 
+# Local tooling for this checkout: agent notes, the codegraph index, scratch scripts.
+.agent.md
+.codegraph/
+.local/
+
 # Editor/OS droppings.
 .DS_Store
 Thumbs.db
